@@ -1,0 +1,9 @@
+{
+    "name": "benchmark",
+    "version": "1.0.0",
+    "type": "module",
+    "dependencies": {
+        "benchmark": "^2.1.4",
+        "moment": "^2.29.4"
+    }
+}
