@@ -1,0 +1,13 @@
+We have a list of millions of dates, stored in a database.
+
+We'd like to convert these dates to a moment object, so we can perform date calculations on them.
+
+We need the objects to stay in their local timezone, so we're using `moment.parseZone()` to convert them.
+
+However, we're seeing very long parse times, and we'd like to speed them up.
+
+We need to improve the performance of `moment.parseZone()`. Let's see if we can do it!
+
+`benchmarks.js` contains a benchmark suite.
+
+`index.js` is some example code that we can use outside the context of a benchmark.
